@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+header{
+  background-color: black;
+  color: white;
+  display: inline-flex;
+  width: 100%;
+  padding: 20px;
+}
+
+header span{
+  font-weight:bold;
+  width: 20%;
+}
+
+header nav {
+  display: inline-flex;
+  width: 75%;
+}
+
+header nav ul{
+  display: inline-flex;
+  justify-content: space-evenly;
+  width: 100%;
+  border: none;
+  list-style:none;
+}
