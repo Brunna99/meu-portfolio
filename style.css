@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,6 +14,7 @@ header{
   display: inline-flex;
   width: 100%;
   padding: 20px;
+  border: 1px solid black;
 }
 
 header span{
@@ -32,4 +33,58 @@ header nav ul{
   width: 100%;
   border: none;
   list-style:none;
+}
+
+main{
+  width: 100%;
+  padding:20px;
+}
+
+main #background{
+  width: 100%;
+  height: 300px;
+  background-image: url('./images/background.jpg');
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 0;  
+}
+
+main #background h1{
+  text-align: center;
+  font-weight: 700;
+  color: white; 
+  font-size: 48px; 
+}
+
+main #background img#perfil{
+  width:200px;
+  height:200px;
+  position:absolute;
+  z-index: 1;
+  top: 220px;
+  left: 30px;
+  border-radius: 50%;
+}
+
+main div#headline{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  width: 80%;
+  float: right;
+  margin-top: 20px;
+}
+
+main div#headline h2{ 
+text-align: start;
+}
+
+main div#headline p{
+  text-align: start;
 }
