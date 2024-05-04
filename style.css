@@ -88,3 +88,67 @@ text-align: start;
 main div#headline p{
   text-align: start;
 }
+
+
+main div#experiência {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  float:right;
+  width:100%;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+
+main div#experiência hr{
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+main div#experiência p{
+text-align: justify;
+}
+
+main div#experiência h3{
+font-size: 20px;
+}
+
+main div#sobre-mim {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  float:right;
+  width:100%;
+  margin-top: 30px;
+  gap: 30px;
+}
+
+
+main div#sobre-mim hr{
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+main div#sobre-mim p{
+text-align: justify;
+}
+
+main div#sobre-mim h4{
+font-size: 20px;
+}
+
+main section.projects{
+  display:flex;
+  flex-direction: column;
+  justify-content: 20px;
+  align-items: flex-start;
+  float:right;
+  width:100%;
+  margin-top: 20px;
+  gap: 20px;
+}
