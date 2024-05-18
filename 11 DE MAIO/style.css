@@ -1,0 +1,11 @@
+.h2 {
+  color: rgb(77, 1, 255); font-size: 24px; 
+  font-weight: bold; 
+  text-decoration: underline; 
+}
+
+p {
+  color: red; 
+  font-size: 16px; 
+  line-height: 1.5; 
+}
